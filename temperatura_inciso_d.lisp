@@ -1,0 +1,6 @@
+(defun ftoc (f)
+  (* (- f 32) (/ 5 9)))
+(defun ctof (c)
+  (+ (* c (/ 9 5)) 32))
+(print (ftoc 68))
+(print (ctof 24))
